@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# KAL name service
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Built using Hardhat on Polygon PoS chain with [buildspace](https://buildspace.so)
 
-Try running some of the following tasks:
+Contract address: [0x53d49e7129bD3308B1E9DE32aba7b789Da3b20Ea](https://mumbai.polygonscan.com/address/0x53d49e7129bD3308B1E9DE32aba7b789Da3b20Ea)
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+Deployed at: [KAL name service](https://kal-name-service.vercel.app/)
+
+## Roadmap
+
+- [x] Solidity contract
+- [x] React frontend
+- [ ] Hosting on IPFS
