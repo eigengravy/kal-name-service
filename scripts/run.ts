@@ -14,8 +14,8 @@ async function main() {
   txn = await domains.setRecord("retro","https://playvalorant.com")
   await txn.wait()
 
-  const address = await domains.getAddress("banana");
-  console.log("Owner of domain banana:", address);
+  const address = await domains.getAddress("retro");
+  console.log("Owner of domain retro:", address);
 
   const balance = await ethers.provider.getBalance(domains.address);
   console.log("Contract balance:", ethers.utils.formatEther(balance));

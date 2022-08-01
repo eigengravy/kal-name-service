@@ -7,9 +7,6 @@ async function main() {
   await domains.deployed();
 
   console.log(`Contract deployed to ${domains.address}`);
-
-  let txn = await domains.register("retro", { value : ethers.utils.parseEther('0.1') });
-  await txn.wait();
 }
 
 main().catch((error) => {
